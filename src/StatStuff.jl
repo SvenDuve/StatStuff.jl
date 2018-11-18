@@ -8,7 +8,8 @@ export
     medianSD,
     varianceSD,
     standardDeviationSD,
-    Poisson
+    Poisson,
+    cdfPoisson
 
 
 
