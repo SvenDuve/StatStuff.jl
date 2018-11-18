@@ -7,13 +7,15 @@ export
     meanSD,
     medianSD,
     varianceSD,
-    standardDeviationSD
+    standardDeviationSD,
+    Poisson
 
 
 
 include("meanSD.jl")
 include("medianSD.jl")
 include("varianceSD.jl")
+include("pdf.jl")
 include("standardDeviationSD.jl")
 
 
