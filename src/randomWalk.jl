@@ -14,3 +14,17 @@ end
 
 
 
+# samples a coin toss, either win or lose
+
+function coinTrial(n, seed)
+
+    rng = MersenneTwister(seed)
+    A = [-1, 1]
+    
+    return rand(rng, A, n)
+
+end
+
+
+
+
