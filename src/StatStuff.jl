@@ -9,7 +9,8 @@ export
     varianceSD,
     standardDeviationSD,
     Poisson,
-    cdfPoisson
+    cdfPoisson,
+    BernoulliTrial
 
 
 
@@ -18,6 +19,7 @@ include("medianSD.jl")
 include("varianceSD.jl")
 include("pdf.jl")
 include("standardDeviationSD.jl")
+include("randomWalk.jl")
 
 
 end # module
